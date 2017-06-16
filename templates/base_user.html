@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Mbeats{% endblock %}
+{% block mbeats_active %}active{% endblock %}
+{% load staticfiles %}
+{% block custom_css %}
+<link href="{% static 'css\base_user.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block search %}
+    <form id='search' class="navbar-form navbar-right" method="post" action="{%url 'mbeats:index'%}" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" name="query" value="{{ request.GET.query }}" placeholder="Your wish is my command">
+    </div>
+    <button type="submit" class="button">Search</button>
+    </form>
+{% endblock %}

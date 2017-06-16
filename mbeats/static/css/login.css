@@ -1,0 +1,162 @@
+
+.container-fluid {
+    background: url("../images/bgg.jpg") no-repeat center center;
+    padding:0;
+    margin-top:51px;
+    max-width: 1400px;
+    width:100%;
+    height:535px;
+    <!--opacity: 80%;-->
+
+}
+
+.login-form-container{
+
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 400px;
+    width:100%;
+    height: 500px;
+    z-index: 1;
+    position: absolute;
+    top:50%;
+    left:80%;
+    margin-left: -200px;
+    margin-top: -250px;
+    border-radius: 30px;
+    <!--border: 2px solid black;-->
+}
+
+
+.login-form-header{
+    text-align: center;
+}
+
+.logo img{
+    width: 70px;
+    max-width: 150px; /* change this to whatever you want the 'standard' size to be */
+    height: 70px;
+    border-radius: 50px;
+}
+
+.login-form .input-container{
+    border-bottom: 1px solid #cccccc;
+    margin-top: 15px;
+    font-size: 15px;
+    color: lightgray;
+    padding-bottom: 5px;
+}
+
+.login-form .input{
+    border:0;
+    width: 200px;
+    color:black;
+}
+
+.login-form .input:focus{
+    outline: none;
+}
+
+#show-password{
+    float:right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.login-form .forgot-password{
+    float:right;
+}
+
+.login-form .rememberme-container{
+    margin-top: 15px;
+    padding:0;
+
+}
+
+.login-form .rememberme-container input{
+    margin-left:0;
+}
+
+.login-form .rememberme span {
+    vertical-align: top;
+}
+
+.login-form .button{
+    margin-top:15px;
+    width:100%;
+    background: #2e7ec7;
+    border:0;
+    color:#ffffff;
+    padding:10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .3s;
+
+}
+
+.login-form .button:hover{
+    background: #1f6eb7;
+}
+
+.login-form .register{
+    display: block;
+    color:grey;
+    background: lightgrey;
+    padding:10px;
+    margin-top:5px;
+    border:0;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.login-form .register:hover{
+    background: darkgrey;
+    text-decoration: none;
+}
+
+.separator{
+    margin: 20px 0;
+    position:relative;
+    border: 1px solid lightgrey;
+}
+
+.separator-text{
+    display: block;
+    position: absolute;
+    top:-11px;
+    left:50%;
+    margin-left: -22px;
+    padding: 0px 10px;
+    background: #ffffff;
+    color: #8a8a8a;
+}
+
+.social-media-login .sm-btn-fb{
+    padding: 10px 25px;
+    color: white;
+    background-color: cornflowerblue;
+    display: block;
+    margin-top: 5px;
+    text-align:center;
+    text-decoration: none;
+}
+
+.social-media-login .sm-btn-g{
+    padding: 10px 25px;
+    color: white;
+    background-color: red;
+    display: block;
+    margin-top: 5px;
+    text-align:center;
+    text-decoration: none;
+}
+
+.social-media-login .sm-btn-fb:hover{
+    background-color: dodgerblue;
+}
+
+.social-media-login .sm-btn-g:hover{
+    background-color: darkred;
+}

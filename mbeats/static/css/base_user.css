@@ -1,0 +1,35 @@
+#search{
+
+    padding: 5px 0 0 0;
+    margin:0;
+    margin-top: 3px;
+}
+
+#search input{
+
+
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    background-color: #222222;
+    width: 300px;
+    color: #ffffff;
+    font-size:14px;
+
+}
+
+#search button{
+    letter-spacing: 1.5px;
+    background-color: #ffffff;
+
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    border-radius: 100px;
+    color:black;
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+
+
+}
+#search button:hover {
+    background-color: whitesmoke;
+}

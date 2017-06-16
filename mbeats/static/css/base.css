@@ -1,0 +1,57 @@
+html,body,div,span,h2,h3,h4
+{
+    font-size:100%;
+    font-style: normal;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.navbar-brand{
+    font-size: 22px;
+    font-family: 'Satisfy', cursive;
+}
+
+.topnav{
+    font-size: 14px;
+    padding:0;
+    margin:0;
+}
+
+
+.navbar-nav li{
+    display: inline;
+    text-indent: 5px;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav li a:hover{
+    color: red;
+}
+
+
+.footer-mbeats {
+    background-color: #222222 ;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left:0;
+    margin:0;
+    padding:0;
+
+}
+
+.footer-mbeats p {
+    margin:4px;
+    padding:0;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.footer-mbeats i{
+    color:darkred;
+}
